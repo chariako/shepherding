@@ -38,7 +38,7 @@ $$
 
 where $w_L$ is a positive weight and $\ln(\cdot)$ is the natural logarithm.
 
-- Follower (F): The goal of F agents is to remain close to their original locations $(x_0,y_0)$ at the start of the simulation, modeling the tendency to remain in place during real-world evacuations. The objective function of F agents is given by
+- Follower (F): The goal of F agents is to remain close to their original locations $(x_0,y_0)$ at the start of the simulation, modeling the tendency to remain in place during real-world emergency evacuations. The objective function of F agents is given by
 
 $$
 f_F(x,y) = \frac{w_F}{2} (x-x_0)^2 + \frac{w_F}{2} (y-y_0)^2,
