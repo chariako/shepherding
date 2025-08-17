@@ -83,7 +83,7 @@ Output files follow the convention below:
 
 *filename = c\_\<velocity>\_a\_\<rendezvous_weight>\_helpers\_\<num_helpers>\_leaders\_\<num_leaders>\_total\_\<num_agents>*
 
-*foldername = wl\_\<leader_weight>\_wh\_\<helper_weight>\_wf\_\<follower_weight>\_exit\_\<e>\_angle\_\<a>\_offset\_\<b>*
+*foldername = wl\_\<leader_weight>\_wh\_\<helper_weight>\_wf\_\<follower_weight>\_exit\_\<exit_line>\_angle\_\<danger_angle>\_offset\_\<danger_offset>*
 
 - A video of the simulation (\<filename>.mp4), stored in ./videos/foldername/
 - A snapshot of the intialization state, depicting initial positions and the communication graph topology (\<filename>\_init.png), stored in ./plots/foldername/
