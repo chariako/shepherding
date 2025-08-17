@@ -15,7 +15,7 @@ parser.add_argument('--exit_line', type=float, default=0.8, help='Exit line (x=e
 parser.add_argument('--danger_angle', type=float, default=0.5, help='Danger line angle (a in y=-ax+b)')
 parser.add_argument('--danger_offset', type=float, default=0.9, help='Danger line offset (b in y=-ax+b)')
 parser.add_argument('--velocity', type=float, default=0.1, help='Velocity (c)')
-parser.add_argument('--consensus_weight', type=float, default=0.001, help='Consensus weight (step size)')
+parser.add_argument('--rendezvous_weight', type=float, default=0.001, help='Rendezvous weight (step size)')
 parser.add_argument('--num_frames', type=int, default=100, help='Number of frames for output video')
 parser.add_argument('--time', type=float, default=500, help='Experiment time (time units)')
 
@@ -30,7 +30,7 @@ x_e = args.exit_line
 a_f = - args.danger_angle
 b_f = args.danger_offset
 c = args.velocity
-step = args.consensus_weight
+step = args.rendezvous_weight
 FR = args.num_frames
 T = args.time
 
